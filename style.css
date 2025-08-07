@@ -37,7 +37,7 @@ body{
 .conteudo-senha{
     margin-top: 80px;
     background: var(--fundo-senha);
-    pardding: 24px;
+    padding: 24px;
     border-bottom: 6px solid var(--borda);
 }
 
@@ -50,7 +50,7 @@ body{
     width:70%;
 }
 
-#campo-senha: focus{
+#campo-senha:focus{
     outline: none;
 }
 
@@ -99,7 +99,7 @@ body{
     cursor: pointer;
 }
 
-,parametro-senha__texto{
+.parametro-senha__texto{
     padding: 24px;
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);

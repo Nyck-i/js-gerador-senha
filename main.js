@@ -7,9 +7,27 @@ const botoes = document.querySelectorAll('.parametro-senha__botao');
 botoes[0].onclick = diminuiTamanho;
 botoes[0].onclick = aumentaTamanho;
 
-function diminuiTamanho(){
+function aumentaTamanho(){
 if (tamanhoSenha > 20){
     tamanhoSenha = tamanhoSenha +1;
    }
 numeroSenha.textContent = tamanhoSenha;
 }
+function diminuiTamanho(){
+if (tamanhoSenha >1){
+    tamanhoSenha = tamanhoSenha -1;
+   }
+numeroSenha.textContent = tamanhoSenha;
+
+}
+const campoSenha = document.querySelector('#campo-senha');
+
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+geraSenha();
+
+function geraSenha(;{
+    let senha='';
+    for(let i =0; i< tamanhoSenha i++){
+        let numeroAleatorio = Math.random() * letrasMaiusculas.length;
+    }
+})
